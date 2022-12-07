@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-  const menuItems = <>
+  const menuItems = <React.Fragment>
     <li className='font-medium'><Link to='/'>Home</Link></li>
-    <li className='font-medium'><Link to='/blogs'>Blogs</Link></li>
-  </>;
+    <li className='font-medium'><Link to='/about'>About</Link></li>
+    <li className='font-medium'><Link to='/contact'>Contact</Link></li>
+  </React.Fragment>;
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 shadow-lg">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
