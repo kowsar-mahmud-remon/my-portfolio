@@ -29,7 +29,7 @@ const MyProjects = () => {
     },
   ];
   return (
-    <div className='my-5 mx-5'>
+    <div className='py-10 mx-5 bg-base-200'>
       <h2 className='text-primary text-center text-4xl font-bold mb-10'>My Projects</h2>
       <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {

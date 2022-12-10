@@ -21,7 +21,7 @@ const NavBar = () => {
         </div>
         <Link to='/' className="btn btn-ghost normal-case text-xl pl-0">
           {/* <img className='h-14' src={logo} alt="" /> */}
-          <h2 className='text-2xl'>Portfolio</h2>
+          <h2 className='text-2xl text-primary'>Portfolio</h2>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -30,7 +30,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Get started</a>
+        <a href='#contact' className="btn btn-outline btn-primary">Contact Me</a>
       </div>
     </div>
   );
