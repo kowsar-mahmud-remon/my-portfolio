@@ -65,7 +65,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className='mx-5 my-10'>
+    <div className='mx-5 my-10' id='skills'>
       <h2 className='text-center text-4xl text-primary font-bold'>My Skills</h2>
       <div className="grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 my-10">
         {

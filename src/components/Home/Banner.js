@@ -1,5 +1,6 @@
 import { FaDownload } from 'react-icons/fa';
 // import { FaDownload } from "@react-icons/all-files/fa/BsDownload";
+import resume from '../../assets/resume.pdf';
 
 
 import React from 'react';
@@ -18,10 +19,20 @@ const Banner = () => {
           <h4 className=' text-gray-600 my-1'>Hello I'm</h4>
           <h1 className="text-4xl font-bold text-primary mb-2">WEB DEVELOPER</h1>
           <h3 className='text-2xl'>Kowsar Mahmud Remon</h3>
-          <p className="py-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore quos ea recusandae. Corrupti at doloribus vitae dolorem atque aliquid similique.</p>
-          <button className='btn btn-sm rounded btn-primary font-medium normal-case text-lg mr-5'><FaDownload></FaDownload> Download CV</button>
+          <p className="py-4">I am a quick learner, passionate and creative. I am passionate about learning and sharing my knowledge with others as publicly as possible. I love to solve real-world problems.</p>
 
-          <button className='btn btn-sm rounded btn-outline btn-primary font-medium normal-case text-lg mr-5'>Contact Me</button>
+          <a href="https://drive.google.com/file/d/1nGCuD8IPLSmCqelrCpuDvjtN2GR4q7gJ/view?usp=sharing">
+            <button className='btn btn-sm rounded btn-outline btn-primary font-medium normal-case text-lg mr-5'>Check Out My Resume</button>
+          </a>
+
+          <a
+            href={resume}
+            download={resume}
+            className=""
+          >
+            <button className='btn btn-sm rounded btn-primary font-medium normal-case text-lg mr-5'><FaDownload className='mr-1'></FaDownload>Download Resume</button>
+          </a>
+
         </div>
       </div>
     </div>

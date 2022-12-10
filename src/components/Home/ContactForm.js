@@ -47,34 +47,41 @@ const ContactForm = () => {
       <div class="grid grid-cols-1 lg:grid-cols-2">
         <div class=" mb-3 pl-28">
           <div class="contact-tex flex p-2 mb-1">
-            <i class="bi bi-telephone-outbound mx-3 text-primary font-bold text-2xl "></i>
-            <p class="text-base font-bold">+880 15548454564</p>
+            <i class="bi bi-envelope mx-3 text-primary font-bold text-2xl "></i>
+            <p class="text-base font-bold">kowsar.remon@gmail.com</p>
           </div>
           <div class="contact-tex flex p-2 mb-1">
-            <i class="bi bi-envelope mx-3 text-primary font-bold text-2xl "></i>
-            <p class="text-base font-bold">info@website.com</p>
+            <i class="bi bi-telephone-outbound mx-3 text-primary font-bold text-2xl "></i>
+            <p class="text-base font-bold">+880 1521525803</p>
           </div>
+
           <div class="contact-tex flex p-2 mb-1">
             <i class="bi bi-geo-alt mx-3 text-primary font-bold text-2xl "></i>
-            <p class="text-base font-bold">3434 Pearlman Avenue
-              Acton, MA 01720</p>
+            <p class="text-base font-bold">Cumilla, Bangladesh</p>
           </div>
-          <div class="contact-tex flex p-2 mb-1">
-            <i class="bi bi-globe mx-3 text-primary font-bold text-2xl "></i>
+          {/* <div class="contact-tex flex p-2 mb-1">
+            <i class="bi bi-github mx-3 text-primary font-bold text-2xl "></i>
             <p class="text-base font-bold">www.yourwebsite.com</p>
-          </div>
+          </div> */}
         </div>
 
         <div class=" mb-3">
           <form ref={form} onSubmit={sendEmail}>
             <div class="row">
               <div class=" mb-3">
+                <label>Name</label>
+                <br />
                 <input className=' border w-1/2 border-gray-400 p-1 rounded' type="text" name="user_name" placeholder="Full Name" class="form-control" />
               </div>
+
               <div class=" mb-3">
+                <label>Email</label>
+                <br />
                 <input className=' border w-1/2 border-gray-400 p-1 rounded' type="email" name="user_email" placeholder="Email" class="form-control" />
               </div>
               <div class="col-md-12 mb-3">
+                <label>Message</label>
+                <br />
                 <textarea name="message" id="" placeholder="Message" class="form-control border w-1/2 border-gray-400 p-1 rounded " cols="30" rows="3"></textarea>
               </div>
             </div>
