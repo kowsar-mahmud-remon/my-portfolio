@@ -2,6 +2,7 @@ import './App.css';
 import Main from './components/Main';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home/Home';
+import Blog from './components/Blog/Blog';
 
 function App() {
 
@@ -14,6 +15,10 @@ function App() {
         {
           path: '/',
           element: <Home></Home>
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
         }
       ]
     }

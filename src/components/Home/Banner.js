@@ -10,7 +10,7 @@ import './Banner.css';
 const Banner = () => {
 
   return (
-    <div className="hero bannerImg pt-20 pb-24">
+    <div className="hero bannerImg pt-20 pb-24 mb-20">
       <div className="hero-content grid gap-10 gird-cols-1 md:grid-cols-2 lg:grid-cols-2 flex-col lg:flex-row">
         <div className="">
           <img src={remon} className="rounded-full mx-auto md:mr-10 lg:mr-10 w-96" alt='' />

@@ -18,6 +18,7 @@ const ContactForm = () => {
       }, (error) => {
         console.log(error.text);
       });
+    e.target.reset();
   };
 
   return (
@@ -38,7 +39,7 @@ const ContactForm = () => {
 
       <div class=" justify-center">
         <div class="">
-          <div class="section-title my-5">
+          <div class="section-title mt-5 mb-10">
             <h2 class="text-center font-bold mt-5 pb-5 text-4xl text-primary">Contact Me</h2>
           </div>
         </div>
