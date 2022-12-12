@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Mobile Planet",
+    "img": "",
+    "details": "A dynamic website with a built-in admin, seller, and buyer role authorization system. The seller can resell their used mobile and the buyer can buy their Mobile.",
+    "liveLink": "https://mobile-planet-72baf.web.app/",
+    "githubClient": "",
+    "githubServer": ""
+  },
+  {
+    "id": 2,
+    "name": "Dream Architecture",
+    "img": "",
+    "details": "A complete website of Architects design services and authentication with JWT token. Users can add, delete, update a review, and add services.",
+    "liveLink": "https://dream-architects.web.app/",
+    "githubClient": "",
+    "githubServer": ""
+  },
+  {
+    "id": 3,
+    "name": "Pro Coder",
+    "img": "",
+    "details": "E-learning platform website for programming languages courses. Also has email/password, Google, and GitHub Authentication. Users can buy courses.",
+    "liveLink": "https://programming-learning-pla-48beb.web.app/",
+    "githubClient": "https://github.com/creativerze/Programming-Learning-Platform",
+    "githubServer": "https://github.com/creativerze/Programming-Learning-Platform-Server"
+  }
+]

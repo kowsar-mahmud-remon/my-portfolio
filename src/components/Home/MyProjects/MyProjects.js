@@ -10,25 +10,25 @@ const MyProjects = () => {
       id: 1,
       name: 'Mobile Planet',
       img: `${img1}`,
-      details: 'A dynamic website with a built-in admin, seller, and buyer role authorization system. The seller can resell their used mobile and the buyer can buy their Mobile.',
-      liveLink: 'https://mobile-planet-72baf.web.app/',
-      githubClient: '',
-      githubServer: ''
+      details: 'Used Mobile Resale website',
+      liveLink: "https://mobile-planet-72baf.web.app/",
+      githubClient: "https://github.com/creativerze/mobile-planet-client",
+      githubServer: "https://github.com/creativerze/mobile-planet-server"
     },
     {
       id: 2,
       name: 'Dream Architecture',
       img: `${img2}`,
-      details: 'A complete website of Architects design services and authentication with JWT token. Users can add, delete, update a review, and add services.',
-      liveLink: 'https://dream-architects.web.app/',
-      githubClient: '',
-      githubServer: ''
+      details: 'Architect design services website',
+      liveLink: "https://dream-architects.web.app/",
+      githubClient: "https://github.com/creativerze/dream-architects-client",
+      githubServer: "https://github.com/creativerze/dream-architects-server"
     },
     {
       id: 3,
       name: 'Pro Coder',
       img: `${img3}`,
-      details: 'E-learning platform website for programming languages courses. Also has email/password, Google, and GitHub Authentication. Users can buy courses.',
+      details: 'Programming Learning Platform',
       liveLink: 'https://programming-learning-pla-48beb.web.app/',
       githubClient: 'https://github.com/creativerze/Programming-Learning-Platform',
       githubServer: 'https://github.com/creativerze/Programming-Learning-Platform-Server'

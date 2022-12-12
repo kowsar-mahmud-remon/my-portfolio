@@ -10,7 +10,7 @@ const About = () => {
         <div>
           <h1 className="text-5xl font-bold text-primary">About Me</h1>
           <p className="py-6 text-lg">I am a Front-End Developer. I am a quick learner, passionate and creative. I always like to learn new technology and ensure my skills are kept up to date within this rapidly changing industry. I am passionate about learning and sharing my knowledge with others as publicly as possible. I love to solve real-world problems.</p>
-          <Link to='/services'><button className="btn  btn-outline btn-primary">Contact Me</button></Link>
+          <a href="#contact"><button className="btn  btn-outline btn-primary">Contact Me</button></a>
         </div>
       </div>
     </div>

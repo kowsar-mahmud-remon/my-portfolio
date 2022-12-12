@@ -22,19 +22,6 @@ const ContactForm = () => {
   };
 
   return (
-
-    // <form ref={form} onSubmit={sendEmail}>
-    //   <label>Name</label>
-    //   <input type="text" name="user_name" />
-    //   <label>Email</label>
-    //   <input type="email" name="user_email" />
-    //   <label>Message</label>
-    //   <textarea name="message" />
-    //   <input type="submit" value="Send" /> 
-    // </form>
-
-
-
     <div class="mx-5 my-10" id='contact'>
 
       <div class=" justify-center">
@@ -60,34 +47,33 @@ const ContactForm = () => {
             <i class="bi bi-geo-alt mx-3 text-primary font-bold text-2xl "></i>
             <p class="text-base font-bold">Cumilla, Bangladesh</p>
           </div>
-          {/* <div class="contact-tex flex p-2 mb-1">
-            <i class="bi bi-github mx-3 text-primary font-bold text-2xl "></i>
-            <p class="text-base font-bold">www.yourwebsite.com</p>
-          </div> */}
         </div>
 
         <div class=" mb-3">
           <form ref={form} onSubmit={sendEmail}>
-            <div class="row">
-              <div class=" mb-3">
-                <label>Name</label>
-                <br />
-                <input className=' border w-1/2 border-gray-400 p-1 rounded' type="text" name="user_name" placeholder="Full Name" class="form-control" />
+            <div class="">
+
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Name</span>
+                </label>
+                <input type="text" name="user_name" placeholder="Full Name" className="input input-bordered mb-2 w-1/2" required />
               </div>
 
-              <div class=" mb-3">
-                <label>Email</label>
-                <br />
-                <input className=' border w-1/2 border-gray-400 p-1 rounded' type="email" name="user_email" placeholder="Email" class="form-control" />
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Email</span>
+                </label>
+                <input type="text" name="user_email" placeholder="Email" className="input input-bordered mb-2 w-1/2" required />
               </div>
+
               <div class="col-md-12 mb-3">
                 <label>Message</label>
                 <br />
-                <textarea name="message" id="" placeholder="Message" class="form-control border w-1/2 border-gray-400 p-1 rounded " cols="30" rows="3"></textarea>
+                <textarea name="message" id="" placeholder="Message" class="form-control border w-1/2 textarea textarea-bordered rounded " cols="30" rows="3" required></textarea>
               </div>
             </div>
             <input className='btn btn-primary' type="submit" value="Send" />
-            {/* <a href="#" class="btn btn-outline-success "><i class="bi bi-chevron-double-up"></i> Send</a> */}
           </form>
         </div>
       </div>
