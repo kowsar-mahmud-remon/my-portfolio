@@ -3,6 +3,7 @@ import ProjectDetailsCard from './ProjectDetailsCard';
 import img1 from '../../../../assets/project1.jpg';
 import img2 from '../../../../assets/project11.jpg';
 import img3 from '../../../../assets/project111.jpg';
+import { Link } from 'react-router-dom';
 
 const ProjectsDetailsOne = () => {
   const projectsDetails =
@@ -21,6 +22,7 @@ const ProjectsDetailsOne = () => {
     ];
   return (
     <div className='mx-5 my-10'>
+      <Link to='/'><button className='btn btn-primary btn-sm mt-5 mb-10'>Back to Home</button></Link>
       {
         projectsDetails.map(projectDetails => <ProjectDetailsCard
           key={projectDetails.id}

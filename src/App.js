@@ -24,20 +24,20 @@ function App() {
           path: '/blog',
           element: <Blog></Blog>
         },
-        {
-          path: '/projects/1',
-          element: <ProjectsDetailsOne></ProjectsDetailsOne>
-        },
-        {
-          path: '/projects/2',
-          element: <ProjectsDetailsTwo></ProjectsDetailsTwo>
-        },
-        {
-          path: '/projects/3',
-          element: <ProjectsDetailsThree></ProjectsDetailsThree>
-        },
       ]
-    }
+    },
+    {
+      path: '/projects/1',
+      element: <ProjectsDetailsOne></ProjectsDetailsOne>
+    },
+    {
+      path: '/projects/2',
+      element: <ProjectsDetailsTwo></ProjectsDetailsTwo>
+    },
+    {
+      path: '/projects/3',
+      element: <ProjectsDetailsThree></ProjectsDetailsThree>
+    },
   ]);
   return (
     <div className="max-w-[1440px] mx-auto">
